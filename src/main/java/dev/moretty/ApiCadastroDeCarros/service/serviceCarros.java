@@ -5,6 +5,8 @@ import dev.moretty.ApiCadastroDeCarros.repository.repositoryCarros;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class serviceCarros {
 
@@ -17,4 +19,8 @@ public class serviceCarros {
         return repo.save(carro);
     }
 
+    //List
+    public List<modelCarros> getAllCar() {
+        return repo.findAll();
+    }
 }
