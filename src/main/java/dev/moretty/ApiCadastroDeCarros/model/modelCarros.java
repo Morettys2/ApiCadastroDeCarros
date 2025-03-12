@@ -11,6 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class modelCarros {
 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,7 +22,5 @@ public class modelCarros {
     private String ano;
     private String cor;
     private String imgUrl;
-
-
 
 }
