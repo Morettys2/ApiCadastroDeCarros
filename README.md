@@ -12,11 +12,6 @@ Este projeto é uma API REST para gerenciar carros. Permite a criação, listage
 - 🗄 Banco de Dados: PostgreSQL
 - ⚙ Hibernate
 
-## 📂 Repositório do Projeto
-
-O código-fonte deste projeto está disponível no GitHub:  
-[ApiCadastroDeCarros](https://github.com/Morettys2/ApiCadastroDeCarros)
-
 ## 🗃 Configuração do Banco de Dados
 
 No arquivo `application.properties`, configure a conexão com o PostgreSQL da seguinte maneira:
